@@ -326,12 +326,12 @@ const Services = () => {
 
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Design"
-          title={<h1>We build award winning Designs</h1>}
+          topic="Cyber Security"
+          title={<h1>Securing Your Digital Frontier</h1>}
           subText={
-            <h5>
-              We help clients to build great design to attract more customers
-            </h5>
+            <h4>
+              Robust Cybersecurity Solutions for the Modern Era - In an age where information is power, we safeguard your digital assets with state-of-the-art cybersecurity solutions.
+            </h4>
           }
         />
         <OBJ>
@@ -341,13 +341,12 @@ const Services = () => {
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Develop"
-          title={<h1>We Develope high quality Web & App</h1>}
+          topic="Cloud"
+          title={<h1>Empowering Growth through Cloud Technology</h1>}
           subText={
-            <h5>
-              We build appropriate solution to develope your website & app with
-              best tools available
-            </h5>
+            <h4>
+              Streamlining Processes with Scalable Cloud Solutions - We provide comprehensive cloud solutions designed to enhance collaboration, improve scalability, and streamline business processes.
+            </h4>
           }
         />
         <OBJ>
@@ -357,14 +356,12 @@ const Services = () => {
       </Content>
       <Content>
         <TextBlock
-          topic="Support"
-          title={<h1>We provide support for your digital presence</h1>}
+          topic="Digital Marketing"
+          title={<h1>Maximizing Reach with Paid Advertising</h1>}
           subText={
-            <h5>
-              Once your system is online, we will stay on hand to help you use
-              it and provide technical support and maintenance <br /> your
-              business
-            </h5>
+            <h4>
+              Expanding Your Audience through Strategic PPC Campaigns - Our team of experts manage effective Pay-Per-Click campaigns that target potential customers, increase website traffic, and enhance your digital marketing return on investment.
+            </h4>
           }
         />
         <OBJ>

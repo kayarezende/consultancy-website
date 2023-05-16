@@ -189,13 +189,10 @@ const HeroSection = () => {
 
       <MainContent id="home">
         <Lb id="leftBlock">
-          <Topic>
-            <Circle />
-            <span>We Build Web</span>
-          </Topic>
-          <Title>Transforming your digital presence</Title>
+
+          <Title>Be Future-Ready with Our Specialised Consultancy Services</Title>
           <SubText>
-            we help fast growing companies build award winning websites
+            Offering tailored solutions for businesses of all sizes
           </SubText>
           <CTA>
             Get in touch &nbsp;

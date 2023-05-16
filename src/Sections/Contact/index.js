@@ -130,7 +130,7 @@ const Contact = () => {
       <Title>Get in touch</Title>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
       <Icons>
-        <a href="https://www.facebook.com/">
+        {/* <a href="https://www.facebook.com/">
           {" "}
           <img src={Facebook} alt="Facebook" />
         </a>
@@ -142,15 +142,15 @@ const Contact = () => {
         </a>
         <a href="https://www.instagram.com/">
           <img src={Instagram} alt="Instagram" />
-        </a>
+        </a> */}
       </Icons>
       <Form>
         <Row>
-          <input name="name" type="text" placeholder="your name" />
+          <input name="name" type="text" placeholder="Firstname Lastname" />
           <input
             name="email"
             type="email"
-            placeholder="enter working email id"
+            placeholder="Email Address"
           />
         </Row>
         <textarea
@@ -158,7 +158,7 @@ const Contact = () => {
           id=""
           cols="30"
           rows="2"
-          placeholder="your message"
+          placeholder="I need you to work on this solution for me!"
         ></textarea>
         <div style={{ margin: "0 auto" }}>
           <button

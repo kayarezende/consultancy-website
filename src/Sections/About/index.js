@@ -137,18 +137,30 @@ const About = () => {
             <Human>
               <img src={human} alt="" width="400" height="400" />
             </Human>
-
+            <br />
+            <br />
+            <br />
             <Text>
-              We help our customers to tell about themselves, to grow and stand
-              out in an increasingly competitive digital world, through creative
-              projects that are able to attract and involve, creating strategic
-              value.
+            We offer innovative strategies to navigate the ever-evolving digital landscape.
+            <br />
+            <br />
+            Specializing in:
+            <br />
+            <br />
+            <ul>
+              <li>Artificial Intelligence</li>
+              <li>Cybersecurity</li>
+              <li>Digital Marketing</li>
+              <li>Cloud Solutions</li>
+            </ul>
+            <br />
+            
             </Text>
-            <div>
+            {/* <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />
               <Circle style={{ backgroundColor: "var(--pink)" }} />
               <Circle style={{ backgroundColor: "var(--black)" }} />
-            </div>
+            </div> */}
           </AboutText>
         </Content>
       </Main>
